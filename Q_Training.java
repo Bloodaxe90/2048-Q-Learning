@@ -276,9 +276,6 @@ public class Q_Training extends Thread {
     }
 
     private double getMaxNextQValue(String nextStateAsString) {
-        if (gameController.checkTerminal(currentState) != null) {
-            return 0.0
-        }
         return qTable.entrySet().stream()
                 .filter(e -> e.getKey().startsWith(nextStateAsString))
                 .mapToDouble(Map.Entry::getValue)
