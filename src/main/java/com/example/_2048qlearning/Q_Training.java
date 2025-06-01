@@ -23,7 +23,7 @@ public class Q_Training extends Thread {
     private static final int SLEEP_TIME = 300;
     private static final int THRESHOLD_FREQUENCY = 10;
     private static final double DECAY_RATE = 0.995;
-    private static final String ACTUAL_Q_TABLE = "Q_Table.dat";
+    private static final String ACTUAL_Q_TABLE = "src/main/resources/com/example/_2048qlearning/Q_Table.dat";
     private boolean visualiseTraining;
     private final Object lock = new Object();
     private boolean training = false;
