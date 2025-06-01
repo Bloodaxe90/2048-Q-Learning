@@ -5,7 +5,7 @@
 After implementing the Expectimax algorithm on 2048 (https://github.com/Bloodaxe90/Connect4_Minimax), I decided to try applying the Q-Learning algorithm to 2048 using a tabular approach.
 </p>
 <p>
-As some may already know, using a Q-table to store Q-values for every state-action pair in 2048 is highly impractical, as the state space is enormous, with over a trillion possible entries. Unfortunately, I only realized this after fully implementing Q-Learning and building a functional UI. With this realization, I promptly paused the project, but with the goal of later redeeming the attempt by implementing Deep Q-Learning on 2048 instead.
+As some may already know, using a Q-table to store Q-values for every state-action pair in 2048 is highly impractical, as the state space is enormous, with over a trillion possible entries. Unfortunately, I only realized this after fully implementing Q-Learning and building a functional UI. With this realization, I promptly gave up on the project, but with the goal of later redeeming the attempt by implementing Deep Q-Learning on 2048 instead.
 </p>
 <p>
 <strong>UPDATE:</strong> I have implemented DQL successfully on 2048! You can find it here: https://github.com/Bloodaxe90/2048_DQL_python
